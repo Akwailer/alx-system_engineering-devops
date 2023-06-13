@@ -1,0 +1,10 @@
+#!/bin/bash
+#!/bin/bash
+
+echo -n "Enter input: "
+read input
+
+cleaned_input=$(echo "$input" | tr -d 'cC')
+
+echo "Cleaned input: $cleaned_input"
+
