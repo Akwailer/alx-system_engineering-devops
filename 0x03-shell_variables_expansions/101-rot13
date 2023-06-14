@@ -1,3 +1,2 @@
 #!/bin/bash
-tr 'A-Za-z' 'N-ZA-Mn-za-m'
-
+" input_text; encoded_text=$(echo "$input_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m');"
